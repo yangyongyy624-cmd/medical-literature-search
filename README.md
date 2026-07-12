@@ -64,3 +64,22 @@ report = workflow.search(
 
 宵宵  
 2026-07-12
+
+## 新增：多模态因果学习
+
+**文件**: `multimodal_causal_learner.py`
+
+**核心思想**:
+- 分离因果特征和混淆因子
+- 文本引导的解耦
+- 提高跨域泛化能力
+
+**使用**:
+```python
+from multimodal_causal_learner import MultiModalCausalLearner
+
+learner = MultiModalCausalLearner(input_dim=512)
+learner.train_epoch(dataloader)
+```
+
+**文档**: `docs/multimodal_causal_learning.md`
