@@ -83,3 +83,40 @@ learner.train_epoch(dataloader)
 ```
 
 **文档**: `docs/multimodal_causal_learning.md`
+
+---
+
+## 核心方法论
+
+**文档**: `docs/methodology_causal_learning.md`
+
+**核心框架**: 分离 → 强调 → 文本化 → 交互
+
+```
+1. 分离 (Separation)
+   - 什么是因果特征？
+   - 什么是混淆因子？
+
+2. 强调 (Emphasis)
+   - 重点强调因果特征
+   - 用先验知识指导
+
+3. 文本化 (Textualization)
+   - 把混淆因子写出来
+   - 明确干扰因素
+
+4. 交互计算 (Interaction)
+   - 因果特征 × 混淆因子
+   - 边际化去除混淆
+```
+
+**应用范围**:
+- ✅ 机器学习
+- ✅ 科学研究
+- ✅ 编程开发
+- ✅ 论文写作
+- ✅ 任何问题解决方法
+
+**来源**: 宵宵的科研与编程经验总结
+
+---
